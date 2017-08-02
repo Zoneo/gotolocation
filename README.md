@@ -22,8 +22,9 @@ The following *plugins* are required:
 * [sscanf](https://github.com/Southclaws/sscanf2)
 * [mysqlannounce](http://forum.sa-mp.com/showthread.php?t=56564)
 
+This filterscript requires a mysql database.
 
-This filterscript was originally created as part of the MGRP admin script. Therefore, it is designed to trust all players which use it. It's highly recommended to restrict certain commands to trusted players. To do this, find each line which begins with `if(true`, and replace `true` with the condition on which you want to restrict command usage. For example, you could restrict the commands to admins. Each of these lines is clearly commented. 
+The filterscript was originally created as part of the MGRP admin script. Therefore, it is designed to trust all players which use it. It's highly recommended to restrict certain commands to trusted players. To do this, find each line which begins with `if(true`, and replace `true` with the condition on which you want to restrict command usage. For example, you could restrict the commands to admins. Each of these lines is clearly commented. 
 
 When compiling the .PWN file, you will see some warnings. These are purposeful and are due to the redundant if statements, which are provided to simplify the process of restricting the commands to trusted players.
 
@@ -51,8 +52,6 @@ When compiling the .PWN file, you will see some warnings. These are purposeful a
 * **/createloc [name of new location]** *Create a new location*
 * **/deleteloc [name of location]** *Delete a location*
 * **/locstats [name of loation]** *Get the statistics for a location*
-
-
 
 ## Troubleshooting
 
